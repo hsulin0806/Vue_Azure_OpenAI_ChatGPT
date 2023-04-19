@@ -92,7 +92,7 @@ export default {
       this.botMessageArrayIndex = this.chatMessages.length - 1;
     },
     async postOpenAI(userPrompt = '') {
-      this.showBotMessage('錢太少，有點不想回 ~');
+      this.showBotMessage('這問題啊 讓我思考一下...');
       const reqBody = {
         messages: [
           {
