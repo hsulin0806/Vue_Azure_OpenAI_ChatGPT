@@ -92,12 +92,12 @@ export default {
       this.botMessageArrayIndex = this.chatMessages.length - 1;
     },
     async postOpenAI(userPrompt = '') {
-      this.showBotMessage('思考中 ~');
+      this.showBotMessage('錢太少，有點不想回 ~');
       const reqBody = {
         messages: [
           {
             role: 'system',
-            content: '你是一個名叫「OpenAI ChatGPT」的角色。請用小於6歲的孩子能夠聽懂的語言和親切、容易親近的口吻來講話。',
+            content: '你是一個電腦領域的專家，請用專家的語氣來講話。',
           },
           {
             role: 'user',
