@@ -97,7 +97,7 @@ export default {
         messages: [
           {
             role: 'system',
-            content: '你是一個電腦領域的專家，請用專家的語氣來講話。',
+            content: '你是一個精通各領域的專家，請用專家的語氣來講話。',
           },
           {
             role: 'user',
